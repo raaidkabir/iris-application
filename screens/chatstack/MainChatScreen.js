@@ -19,7 +19,7 @@ const MainChatScreen = ({navigation}) => {
     }, [])
     useLayoutEffect(()=>{
         navigation.setOptions({
-            title: 'Iris',
+            title: 'Chat',
             headerStyle: {backgroundColor: 'white'},
             headerTitleStyle: {color: 'black'},
             headerTintColor: 'black',

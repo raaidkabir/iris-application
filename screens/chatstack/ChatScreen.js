@@ -125,7 +125,7 @@ const ChatScreen = ({navigation, route}) => {
                     )} 
                     onSubmitEditing={sendMessage}/>
                     <TouchableOpacity onPress={sendMessage} activeOpacity={0.5}>
-                    <Ionicons name='send' size ={24} color = '#ee7b30' />
+                    <Ionicons name='send' size ={24} color = '#6f8ab7' />
                     </TouchableOpacity>
                 </View>
                 </>
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     },
     sender:{
         padding:15,
-        backgroundColor: '#2B68E6',
+        backgroundColor: '#6f8ab7',
         alignSelf: 'flex-start',
         borderRadius: 20,
         marginBottom:'2%',
