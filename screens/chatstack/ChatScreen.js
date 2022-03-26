@@ -14,10 +14,11 @@ const ChatScreen = ({navigation, route}) => {
             title: 'Chat',
             headerBackTitleVisible: false,
             headerTitleAlign: 'left',
+            headerStyle: {backgroundColor:'#6f8ab7'},
             headerTitle: ()=>(
                 <View style={{flexDirection:'row',alignItems:'center'}}>
                 <Avatar rounded source = {{uri: messages[0]?.data.photoURL}} />
-                <Text style={{color:'white', marginLeft:10,fontWeight:'700'}}>{route.params.chatName}</Text>
+                <Text style={{color:'white', alignSelf:"center", fontWeight:'700'}}>{route.params.chatName}</Text>
                 </View>
         ),
         headerLeft: ()=>(
@@ -119,7 +120,7 @@ const ChatScreen = ({navigation, route}) => {
                     ))}
                 </ScrollView>
                 <View style={styles.footer}>
-                    <TextInput placeholder='Signal Message' style={styles.textInput}
+                    <TextInput placeholder='Iris Message' style={styles.textInput}
                     value ={input} onChangeText={(text)=>(
                         setInput(text)
                     )} 

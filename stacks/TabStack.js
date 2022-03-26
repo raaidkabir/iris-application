@@ -26,7 +26,7 @@ const TabStack = ({navigation}) => {
           options={{
             tabBarLabel: 'Home',
             tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="home" color={color} size={size} />
+              <MaterialCommunityIcons name="eye" color={color} size={size} />
             ),
           }}
         />

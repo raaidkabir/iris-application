@@ -1,5 +1,6 @@
 import React, {useLayoutEffect,useState,useEffect} from 'react'
-import { StyleSheet, Text, View,SafeAreaView,ScrollView, TouchableOpacity} from 'react-native'
+import { StyleSheet, View,SafeAreaView,ScrollView, TouchableOpacity} from 'react-native'
+import { Text } from 'react-native-elements'
 import { Avatar } from 'react-native-elements/dist/avatar/Avatar'
 import CustomListItem from '../../components/CustomListItem'
 import { auth,db } from '../../firebase'
@@ -19,13 +20,13 @@ const MainChatScreen = ({navigation}) => {
     }, [])
     useLayoutEffect(()=>{
         navigation.setOptions({
-            title: 'Chat',
-            headerStyle: {backgroundColor: 'white'},
-            headerTitleStyle: {color: 'black'},
+            title: '',
+            headerStyle: {backgroundColor: '#6f8ab7'},
+            headerTitleStyle: {color: 'white'},
             headerTintColor: 'black',
             headerLeft: ()=>(
                 <View style={{marginLeft: 20}}>
-                    <Avatar rounded source={{uri: auth?.currentUser?.photoURL}}/>
+                    <Text style={{color:"white", fontSize: 25, fontWeight:'700'}}>Chat</Text>
                 </View>
                 ),
             headerRight: ()=>(
@@ -36,12 +37,12 @@ const MainChatScreen = ({navigation}) => {
                     marginRight:20
                 }}>
                     <TouchableOpacity activeOpacity={0.5}>
-                        <AntDesign name='camerao' size={24} color='black'/>
+                        <AntDesign name='camerao' size={24} color='white'/>
                     </TouchableOpacity>
                     <TouchableOpacity activeOpacity={0.5} onPress={()=>(
                         navigation.navigate('AddChat')
                     )} >
-                        <SimpleLineIcons name='pencil' size ={24} color='black'/>
+                        <SimpleLineIcons name='pencil' size ={24} color='white'/>
                     </TouchableOpacity>
                 </View>
             )
