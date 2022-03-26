@@ -8,6 +8,8 @@ import LoginScreen from './screens/LoginScreen'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import RegisterScreen from './screens/RegisterScreen';
 import TabStack from './stacks/TabStack';
+import PhoneNumber from './screens/PhoneNumber';
+import Otp from "./screens/Otp";
 
 export default function App() {
   const Stack = createStackNavigator()
@@ -17,6 +19,8 @@ export default function App() {
         <Stack.Navigator initialRouteName='Login'>
           <Stack.Screen name='Login' component={LoginScreen} />
           <Stack.Screen name='Register' component={RegisterScreen} />
+          <Stack.Screen name="PhoneNumber" component={PhoneNumber} options={{ title: 'Verify your Phone Number' }} />
+          <Stack.Screen name="Otp" component={Otp} options={{ title: 'Enter the SMS Code' }} />
           <Stack.Screen name='Tabs' component={TabStack} />
         </Stack.Navigator>
       </NavigationContainer>

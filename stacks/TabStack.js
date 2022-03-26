@@ -36,7 +36,7 @@ const TabStack = ({navigation}) => {
           options={{
             tabBarLabel: 'Chat with a Professional',
             tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="bell" color={color} size={size} />
+              <MaterialCommunityIcons name="chat" color={color} size={size} />
             ),
           }}
         />

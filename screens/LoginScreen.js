@@ -30,7 +30,7 @@ const LoginScreen = ({navigation}) => {
                 <View style={{flexDirection:'row'}}>
                     <Button title = 'Login' buttonStyle={styles.button} onPress={signIn}/>
                     <Button title = 'Register' buttonStyle={styles.button}
-                    onPress={()=>navigation.navigate('Register')}/>
+                    onPress={()=>navigation.navigate('PhoneNumber')}/>
                 </View>
             </View>
             </View>
