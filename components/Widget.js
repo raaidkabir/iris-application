@@ -6,7 +6,6 @@ import { withTheme } from 'react-native-elements';
 const Widget = (props) => {
     return (
         <TouchableOpacity style={styles.container} activeOpacity={0.5} >
-            {/*<Ionicons name ='add-circle' filled color={'#ee7b30'} size={90}/>*/}
             <View>
                 <Image style={styles.img} source={props.source}/>
                 <Text style={styles.caption} >{props.txt}</Text>
@@ -26,7 +25,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         height: 255,
-        marginRight: 10
+        marginRight: 10,
+        marginBottom: 10
     },
     caption: {
         top: '3%',

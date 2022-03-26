@@ -10,6 +10,7 @@ const User = (props) => {
                 <Image style={styles.img} source={props.source}/>
             </View>
             <View style={styles.activeIcon}/>
+            <Text style={styles.name}>{props.name}</Text>
         </TouchableOpacity>
     )
 }
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
     },
     container: {
         marginBottom: 20,
-        marginRight: 20,
+        marginRight: 15,
     },
     activeIcon: {
         backgroundColor: '#00ff18',
@@ -32,8 +33,11 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         left: 6,
         bottom: 10,
-        
-
+    },
+    name: {
+        top: -5,
+        fontSize: 11,
+        alignSelf: 'center'
     }
 
 })
