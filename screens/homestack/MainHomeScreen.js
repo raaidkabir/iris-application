@@ -27,15 +27,15 @@ const MainHomeScreen = ({navigation}) => {
                 </ScrollView>
                 <Text style={{fontSize: 20, fontWeight: '500', marginBottom: 10}}>Upcoming Events</Text>
                 <ScrollView horizontal>
-                    <Widget txt='NSBE Stem Conference' source = {{uri:'https://e6egdoatk6w.exactdn.com/wp-content/uploads/2021/09/NSBE-Logo-National-Society-of-Black-Engineers.png?strip=all&lossy=1&ssl=1'}} />
-                    <Widget txt='BEYA Career Fair' source = {{uri: 'https://www.blackengineer.com/wp-content/themes/blackengineer/timthumb/timthumb.php?src=https%3A%2F%2Fwww.blackengineer.com%2Fwp-content%2Fuploads%2F2022%2F01%2Fbeya_768-1.jpg&h=500&w=770&zc=2&a=tb&ct=1'}}/>
-                    <Widget txt='SHPE Career Fair' source = {{uri: 'https://www.shpe.org/uploads/images/events/NC2021/_eventLogo/nc2021-small-logo.png'}}/>
+                    <Widget url="https://intouch.ccgmag.com/mpage/beya-home" txt='BEYA Career Fair' source = {{uri: 'https://www.blackengineer.com/wp-content/themes/blackengineer/timthumb/timthumb.php?src=https%3A%2F%2Fwww.blackengineer.com%2Fwp-content%2Fuploads%2F2022%2F01%2Fbeya_768-1.jpg&h=500&w=770&zc=2&a=tb&ct=1'}}/>
+                    <Widget url="https://www.nsbe.org/"txt='NSBE Stem Conference' source = {{uri:'https://miro.medium.com/max/640/0*TAeArJ_QAI7G3eX2'}} />
+                    <Widget url="https://www.shpe.org/events/nc2021"txt='SHPE Career Fair' source = {{uri: 'https://www.shpe.org/uploads/images/events/NC2021/_1200x630_crop_center-center_82_none/nc2021large.png?mtime=1605302531'}}/>
                 </ScrollView>
                 <Text style={{fontSize: 20, fontWeight: '500', marginBottom: 10}}>Networking</Text>
                 <ScrollView horizontal>
-                    <Widget txt='Have meaningful conversations' source = {{uri:'https://media.istockphoto.com/photos/group-analysis-of-digital-data-picture-id954307646?k=20&m=954307646&s=612x612&w=0&h=TM-27FHNSJ7gz8SZDYq6hFv86KbTc98am5d02x2W014='}} />
-                    <Widget txt='Make real connections' source = {{uri: 'https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg'}}/>
-                    <Widget txt='Explore your industry ' source = {{uri: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}}/>
+                    <Widget url="https://google.com" txt='Have meaningful conversations' source = {{uri:'https://media.istockphoto.com/photos/group-analysis-of-digital-data-picture-id954307646?k=20&m=954307646&s=612x612&w=0&h=TM-27FHNSJ7gz8SZDYq6hFv86KbTc98am5d02x2W014='}} />
+                    <Widget url="https://google.com" txt='Make real connections' source = {{uri: 'https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg'}}/>
+                    <Widget url="https://google.com" txt='Explore your industry ' source = {{uri: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}}/>
                 </ScrollView>
             </View>
         </ScrollView>
