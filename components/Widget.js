@@ -26,12 +26,13 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         height: 255,
+        marginRight: 10
     },
     caption: {
         top: '3%',
         left: '4%',
         color: 'white',
-        fontWeight: 'normal',
+        fontWeight: '300',
         fontSize: 22
     },
     labelContainer: {
