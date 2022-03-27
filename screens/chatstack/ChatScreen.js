@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-end',
         borderRadius: 20,
         marginRight:15,
-        marginBottom:'2%',
+        marginBottom:'5%',
         maxWidth:'80%',
         position: 'relative'
 
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#6f8ab7',
         alignSelf: 'flex-start',
         borderRadius: 20,
-        marginBottom:'2%',
+        marginBottom:'5%',
         maxWidth:'80%',
         position: 'relative',
         marginLeft: 15

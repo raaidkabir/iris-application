@@ -40,7 +40,7 @@ const Interests = ({navigation}) => {
             Chemical Engineering" checked={check9} onPress={() => setCheck9(!check9)} />
             <CheckBox left title="
             Health Sciences" checked={check10} onPress={() => setCheck10(!check10)} />
-            <Button buttonStyle = {styles.button} onPress={()=>navigation.navigate('Profile')} title='Save'/>
+            <Button buttonStyle = {styles.button} onPress={()=>navigation.replace('Profile')} title='Save'/>
         </SafeAreaView>
     )
 }
