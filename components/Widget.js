@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         left: '4%',
         color: 'white',
         fontWeight: '300',
-        fontSize: 22
+        fontSize: 20
     },
     labelContainer: {
         backgroundColor: '#6f8ab7',

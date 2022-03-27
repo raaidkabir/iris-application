@@ -23,7 +23,7 @@ const LoginScreen = ({navigation}) => {
             <View style={{backgroundColor:'white', height:'100%', alignItems:'center', justifyContent:'center'}}>
                 <Image source={{uri:'https://i.ibb.co/MgmMXtX/Eye-logo-bgremoved.png'}} style={styles.image}/>
                 <Text h3 style={{fontWeight:'800'}}>Iris</Text>
-                <Text p style={{fontWeight:'500'}}>Seeing in Color</Text>
+                <Text p style={{fontWeight:'500'}}>Open your Eyes to New Opportunites</Text>
             <View style ={{backgroundColor: 'white', alignItems:'center'}}>
                 <TextInput placeholder = 'Email' style = {styles.input} value={email} onChangeText={text=>setEmail(text)}/>
                 <TextInput placeholder = 'Password' secureTextEntry style = {styles.input} value={password} onChangeText={text=>setPassword(text)}/>

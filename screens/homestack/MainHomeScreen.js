@@ -4,6 +4,7 @@ import {AntDesign, FontAwesome, Ionicons} from 'react-native-vector-icons'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { Text } from 'react-native-elements'
 import Widget from '../../components/Widget'
+import WidgetNoLink from '../../components/WidgetNoLink'
 import User from '../../components/User'
 
 const MainHomeScreen = ({navigation}) => {
@@ -33,9 +34,15 @@ const MainHomeScreen = ({navigation}) => {
                 </ScrollView>
                 <Text style={{fontSize: 20, fontWeight: '500', marginBottom: 10}}>Networking</Text>
                 <ScrollView horizontal>
-                    <Widget url="https://google.com" txt='Have meaningful conversations' source = {{uri:'https://media.istockphoto.com/photos/group-analysis-of-digital-data-picture-id954307646?k=20&m=954307646&s=612x612&w=0&h=TM-27FHNSJ7gz8SZDYq6hFv86KbTc98am5d02x2W014='}} />
-                    <Widget url="https://google.com" txt='Make real connections' source = {{uri: 'https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg'}}/>
-                    <Widget url="https://google.com" txt='Explore your industry ' source = {{uri: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}}/>
+                    <WidgetNoLink txt='Match with a Mentor' source = {{uri:'https://media.istockphoto.com/photos/group-analysis-of-digital-data-picture-id954307646?k=20&m=954307646&s=612x612&w=0&h=TM-27FHNSJ7gz8SZDYq6hFv86KbTc98am5d02x2W014='}} />
+                    <WidgetNoLink txt='One-on-One Appointment' source = {{uri: 'https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg'}}/>
+                    <WidgetNoLink txt='Explore your Industry' source = {{uri: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}}/>
+                </ScrollView>
+                <Text style={{fontSize: 20, fontWeight: '500', marginBottom: 10}}>Career Planning</Text>
+                <ScrollView horizontal>
+                    <WidgetNoLink txt='Resume Review' source = {{uri:'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg'}} />
+                    <WidgetNoLink txt='Interview Preperation' source = {{uri: 'https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg'}}/>
+                    <WidgetNoLink txt='Internship/Job Advice' source = {{uri: 'https://images.pexels.com/photos/6457544/pexels-photo-6457544.jpeg'}}/>
                 </ScrollView>
             </View>
         </ScrollView>

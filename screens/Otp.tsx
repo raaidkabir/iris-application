@@ -25,7 +25,7 @@ const Otp = ({ route, navigation }) => {
        codeInputHighlightStyle={styles.underlineStyleHighLighted}
        onCodeFilled={(code) => {
          checkVerification(phoneNumber, code).then((success) => {
-           status = true
+           success = true
            if (!success) setInvalidCode(true);
            success && navigation.replace("Register");
          });
