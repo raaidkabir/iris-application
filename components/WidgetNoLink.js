@@ -5,7 +5,7 @@ import { withTheme } from 'react-native-elements';
 
 const WidgetNoLink = (props) => {
     return (
-        <TouchableOpacity style={styles.container} activeOpacity={0.5}>
+        <TouchableOpacity style={styles.container} activeOpacity={0.5} onPress = {props.onPress}>
             <View>
                 <Image style={styles.img} source={props.source}/>
                 <Text style={styles.caption} >{props.txt}</Text>
