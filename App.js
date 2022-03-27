@@ -10,10 +10,13 @@ import RegisterScreen from './screens/RegisterScreen';
 import TabStack from './stacks/TabStack';
 import PhoneNumber from './screens/PhoneNumber';
 import Otp from "./screens/Otp";
+import * as eva from '@eva-design/eva';
+import { ApplicationProvider} from '@ui-kitten/components';
 
 export default function App() {
   const Stack = createStackNavigator()
   return (
+    <ApplicationProvider {...eva} theme={eva.light}>
     <SafeAreaProvider>
       <NavigationContainer>
         <Stack.Navigator initialRouteName='Login'>
@@ -25,6 +28,7 @@ export default function App() {
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
+    </ApplicationProvider>
   );
 }
 
