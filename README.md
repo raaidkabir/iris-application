@@ -26,6 +26,9 @@ The career planning section allows users to schedule a resume review with a prof
 
 The chat section is created primarily as an open forum for users to reach out to the community and create relevant groups. The forums allow for users to provide each other with tips and resources to further their career goals.
 
+### Profile
+
+The profile section can be used to edit your interests. These interests are used to match you with a mentor that will be able to understand you. Additionally, a resume can be uploaded in order for mentors to understand the mentee to a greater degree.
 
 ## Software
 
@@ -33,4 +36,4 @@ React Native was used to create front-end of this application. This framework wa
 
 ## Room for Improvement
 
-Some struggles we encountered were initially setting up the React Native code base, however once that was resolved coding the rest of the application was smooth sailing from there.
+Some struggles we encountered were initially setting up the React Native code base. Expo is notorious for breaking when there is a mismatch in dependencies, therefore, an hour was taken up just to make sure all the dependencies were fulfilled. Addionally, setting up Twillio was difficult as well because this was a service that our team had never used before, so understanding it took quite some time.
