@@ -20,7 +20,7 @@ Below active users, the app lists some upcoming career fair events targeted at m
 
 The Networking section features some options to create meetings with professionals. You can chat with a mentor based on major and interests, schedule a one-on-one appointment with a working professional, or even explore relevant professionals in your industry.
 
-The career planning section allows users to schedule a resume review with a professional that is willing to look through the candidate's CV and look for places ot improve.
+The career planning section allows users to schedule a resume review with a professional that is willing to look through the candidate's CV and look for places to improve.
 
 ### Chat
 
